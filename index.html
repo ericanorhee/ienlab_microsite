@@ -2,55 +2,39 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>200819_04</title>
     <style>
-        #wrap {
-            width: 1000px;
-            margin: 0 auto;
+        * {margin: 0; padding: 0;}
+        #wrap { width: 100%;}
+        header {width: 100%; height: 150px; background: #f8bbd0;}
+        aside {float: left; width: 30%; height: 700px;background: #f48fb1;}
+        section {float: left; width: 40%; height: 700px;background: #f06292;}
+        article {float: left; width: 30%; height: 700px; background: #ec407a;}
+        footer {clear: both; width: 100%; height: 150px; background: #e91e63;}
+
+        @media (max-width: 1220px) {
+            aside {width: 40%;}
+            section {width: 60%; }
+            article {clear: both; float: none; width: 100%; height: 300px;}
+            /*section {float: none;}*/
         }
 
-        header {
-            width: 1000px;
-            height: 100px;
-            background: #111;
+        @media (max-width: 768px) {
+            aside {float: none; width: 100%; height: 300px;}
+            section {float: none;width: 100%; height: 300px;}
         }
 
-        nav {
-            width: 1000px;
-            height: 100px;
-            background: #222;
-        }
-
-        aside {
-            float: left;
-            width: 300px;
-            height: 600px;
-            background: #333;
-        }
-
-        section {
-            float: left;
-            width: 700px;
-            height: 600px;
-            background: #444;
-
-        }
-
-        footer {
-            clear: both;
-            width: 1000px;
-            height: 100px;
-            background: #555;
+        @media (max-width: 480px) {
         }
     </style>
 </head>
 <body>
-<div id="wrap">
-    <header></header>
-    <nav></nav>
-    <aside></aside>
-    <section></section>
-    <footer></footer>
-</div>
+    <div id="wrap">
+        <header></header>
+        <aside></aside>
+        <section></section>
+        <article></article>
+        <footer></footer>
+    </div>
 </body>
 </html>

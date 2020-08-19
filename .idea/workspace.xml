@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="" />
+    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +20,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gEGv6HljtBuKN5vdUF7B9bYxcD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,11 +53,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597672566478</updated>
-      <workItem from="1597672567740" duration="1561000" />
+      <workItem from="1597672567740" duration="11721000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="707" y="358" width="292" height="305" key="Github.ShareDialog" timestamp="1597674953188">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="707" y="358" width="292" height="305" key="Github.ShareDialog/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597674953188" />
+    <state x="635" y="165" key="Github.UntrackedFilesDialog" timestamp="1597674979188">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="635" y="165" key="Github.UntrackedFilesDialog/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597674979188" />
+    <state x="356" y="105" key="SettingsEditor" timestamp="1597675553217">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597675553217" />
   </component>
 </project>
