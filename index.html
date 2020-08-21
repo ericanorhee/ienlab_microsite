@@ -2,44 +2,51 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>200820_05</title>
+    <title>200822_06</title>
     <style>
         * { margin: 0; padding: 0;}
-        #wrap { width: 80%; margin: 0 auto; }
-        .header { width: 100%; height: 100px; background: #90caf9; margin: 0 auto;}
-        .aside { float: left; width: 30%; height: 600px; background: #64b5f6;}
-        .article1 { float: left; width: 70%; height: 200px; background: #42a5f5;}
-        .article2 { float: left; width: 70%; height: 200px; background: #2196f3;}
-        .article3 { float: left; width: 70%; height: 200px; background: #1e88e5; }
-        .footer { clear: both; width: 100%; height: 100px; background: #1976d2; }
+        body { background-color: #fffde7;}
+        #wrap { width: 1200px; margin: 0 auto;}
+        header { width: 100%; height: 100px; background-color: #ffe092; }
+        article {width: 100%; height: 300px; background-color: #ffd54f;}
+        section {overflow: hidden; padding: 5%; width: 90%; background-color: #ffca28;}
+        section > div { width: 18%; margin: 1%; height: 170px; background-color: #ff9800; float: left; border-radius: 5px;}
+        footer {width: 100%; height: 100px; background-color: #ffb300;}
 
-        @media (max-width: 1200px) {
+        @media (max-width: 1240px) {
             #wrap { width: 100%; }
-            .aside { height: 400px; }
-            .article3 { clear: both; width: 100%; height: 150px;}
+            section > div { width: 23%;}
+            section > div:nth-child(5n) { display: none}
         }
 
         @media (max-width: 768px) {
-            .aside { clear: both; width: 100%; height: 80px; }
-            .article1 { float: top; width: 50%; height: 200px; }
-            .article2 { float: top; width: 50%; height: 200px; }
+            section > div { width: 31.3333%;}
+            section > div:nth-child(5) { display: block;}
         }
 
         @media (max-width: 480px) {
-            .article1 { clear: both; width: 100%;}
-            .article2 { clear: both; width: 100%;}
-            .article3 { display: none;}
+            section > div { width: 48%;}
+            section > div:nth-child(5n) { display: block;}
         }
     </style>
 </head>
 <body>
     <div id="wrap">
-        <header class="header"></header>
-        <aside class="aside"></aside>
-        <section class="article1"></section>
-        <section class="article2"></section>
-        <section class="article3"></section>
-        <footer class="footer"></footer>
+        <header></header>
+        <article></article>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <footer></footer>
     </div>
 </body>
 </html>
