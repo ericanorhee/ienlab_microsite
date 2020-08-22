@@ -19,8 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200820_ienlab_microsite&#10;05&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813675/05-반응형-레이아웃-유형-3">
-      <change afterPath="$PROJECT_DIR$/index5.html" afterDir="false" />
+    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200822_ienlab_microsite&#10;06&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813676/06-반응형-레이아웃-유형-4">
+      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -52,12 +57,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\img" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
     </key>
   </component>
@@ -71,7 +80,7 @@
       <updated>1597672566478</updated>
       <workItem from="1597672567740" duration="12008000" />
       <workItem from="1597932366432" duration="6501000" />
-      <workItem from="1598025137532" duration="2085000" />
+      <workItem from="1598025137532" duration="10041000" />
     </task>
     <task id="LOCAL-00001" summary="200819_ienlab_microsite&#10;04까지 했음&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813674/04-반응형-레이아웃-유형-2">
       <created>1597844171502</created>
@@ -94,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597938575098</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="200822_ienlab_microsite&#10;06&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813676/06-반응형-레이아웃-유형-4">
+      <created>1598028267008</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598028267008</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +132,8 @@
     <MESSAGE value="200819_ienlab_microsite&#10;04까지 했음&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813674/04-반응형-레이아웃-유형-2" />
     <MESSAGE value="200820_ienlab_microsite&#10;05" />
     <MESSAGE value="200820_ienlab_microsite&#10;05&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813675/05-반응형-레이아웃-유형-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="200820_ienlab_microsite&#10;05&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813675/05-반응형-레이아웃-유형-3" />
+    <MESSAGE value="200822_ienlab_microsite&#10;06&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813676/06-반응형-레이아웃-유형-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="200822_ienlab_microsite&#10;06&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813676/06-반응형-레이아웃-유형-4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="358" width="292" height="305" key="Github.ShareDialog" timestamp="1597674953188">
@@ -131,9 +148,17 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597675553217" />
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1597938576127">
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1598028269612">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597938576127" />
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598028269612" />
+    <state x="668" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598028868114">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="668" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598028868114" />
+    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup" timestamp="1598105093889">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598105093889" />
   </component>
 </project>
