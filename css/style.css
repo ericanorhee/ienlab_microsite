@@ -7,6 +7,10 @@
     z-index: 3;
 }
 
+.header.activated {
+    background-color: aqua;
+}
+
 .logo {
     width: 200px;
     height: 40px;
@@ -25,10 +29,42 @@
     background-image: url(../img/ienlab_logo_cl.png)
 }
 
-i.fab {
-    font-size: 30px;
-    margin: 10px;
+.header .header_icon {
+    text-align: right;
+    margin: 20px 40px 20px 20px;
 }
+
+.header .header_icon li {
+    display: inline;
+}
+
+i.fab {
+    color: #000000;
+    font-size: 24px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+i.fab:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.scroll_icon {
+    position: fixed;
+    display: block;
+    margin-left: 40px;
+    z-index: 3;
+}
+
+.scroll_icon li {
+    list-style-type: none;
+}
+
+.scroll_icon li img {
+    width: 30px;
+    height: auto;
+}
+
 
 
 .page {

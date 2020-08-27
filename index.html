@@ -7,18 +7,46 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script>
+        $(function() {
+            $(window).scroll(function() {
+                var navbar = $(this).scrollTop();
+                console.log(navbar);
+                var $header = $('.header');
+                if (navbar > 860) {
+                    $header.addClass('activated');
+                } else {
+                    $header.removeClass('activated');
+                }
+            })
+        })
+    </script>
 </head>
 <body>
     <header class="header">
 
         <div class="logo"></div>
 
-        <div class="button"><i class="fab fa-instagram"></i></div>
-        <div class="button"><i class="fab fa-facebook"></i></div>
-        <div class="button"><i class="fab fa-github"></i></div>
-        <div class="button"><i class="fab fa-behance"></i></div>
-
+        <div class="header_icon">
+            <ul>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+            </ul>
+        </div>
     </header>
+    
+    <div class="scroll_icon">
+        <ul>
+            <li><img src="icon/ienlab.svg" alt=""></li>
+            <li><img src="icon/bp_icon.svg" alt=""></li>
+            <li><img src="icon/tn_icon.svg" alt=""></li>
+            <li><img src="icon/ir_icon.svg" alt=""></li>
+            <li><img src="icon/ar_icon.svg" alt=""></li>
+        </ul>
+    </div>
+    
     <section class="page one">
         <div class="overlay"></div>
     </section>
