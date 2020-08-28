@@ -19,14 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200825_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면">
-      <change afterPath="$PROJECT_DIR$/icon/ar_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/bp_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/ienlab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/ir_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/tn_icon.svg" afterDir="false" />
+    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200828_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면">
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/ar_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/ar_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/bp_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/bp_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/ienlab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/ienlab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/ir_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/ir_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/tn_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/tn_icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,15 +59,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/icon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\img" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\icon" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
-      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\img" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\css" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\fonts" />
     </key>
@@ -86,7 +88,7 @@
       <workItem from="1598025137532" duration="15148000" />
       <workItem from="1598365778293" duration="2067000" />
       <workItem from="1598415098983" duration="8973000" />
-      <workItem from="1598446675263" duration="7774000" />
+      <workItem from="1598446675263" duration="20524000" />
     </task>
     <task id="LOCAL-00001" summary="200819_ienlab_microsite&#10;04까지 했음&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813674/04-반응형-레이아웃-유형-2">
       <created>1597844171502</created>
@@ -144,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598447642673</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="200828_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면">
+      <created>1598552778125</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598552778125</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +180,8 @@
     <MESSAGE value="200823_ienlab_microsite&#10;11&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813681/11-헤더-타이틀" />
     <MESSAGE value="200825_ienlab_microsite&#10;12&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813682/12-헤더-아이콘" />
     <MESSAGE value="200825_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면" />
-    <option name="LAST_COMMIT_MESSAGE" value="200825_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면" />
+    <MESSAGE value="200828_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면" />
+    <option name="LAST_COMMIT_MESSAGE" value="200828_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면" />
   </component>
   <component name="WindowStateProjectService">
     <state x="635" y="216" key="FileChooserDialogImpl" timestamp="1598416425519">
@@ -190,18 +200,19 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597675553217" />
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1598447684251">
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1598552779521">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598447684251" />
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598552779521" />
     <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598367381490" />
     <state x="668" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598028868114">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="668" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598028868114" />
-    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup" timestamp="1598105093889">
+    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup" timestamp="1598639998743">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598639998743" />
     <state x="516" y="196" width="672" height="678" key="search.everywhere.popup/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598105093889" />
   </component>
 </project>

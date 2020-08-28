@@ -1,4 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
 
+body {
+    height: 100%;
+}
 .header {
     width: 100%;
     height: 80px;
@@ -39,7 +45,7 @@
 }
 
 i.fab {
-    color: #000000;
+    color: #ffffff;
     font-size: 24px;
     margin: 10px;
     transition: transform 0.3s ease-in-out;
@@ -49,9 +55,20 @@ i.fab:hover {
     transform: scale(1.2, 1.2);
 }
 
-.scroll_icon {
+.screen {
+    width: 100%;
+    height: 100%;
     position: fixed;
+    /*background-color: #000;*/
+    z-index: 2;
     display: block;
+}
+
+.scroll_icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     margin-left: 40px;
     z-index: 3;
 }
@@ -63,9 +80,40 @@ i.fab:hover {
 .scroll_icon li img {
     width: 30px;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
+.scroll_icon li img:hover {
+    transform: scale(1.2, 1.2);
+}
 
+#indicator {
+    width: 2px;
+    height: 20px;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 80px;
+    z-index: 3;
+}
+
+#h1 {
+    width: 100px;
+    height: 200px;
+    background-color: #ff253a;
+    float: left;
+}
+
+#h2 {
+    width: 200px;
+    height: 200px;
+    background-color: #2698cb;
+    float: left;
+}
 
 .page {
     height: 100vh;
@@ -94,9 +142,13 @@ i.fab:hover {
 }
 
 .page.three {
-    background-image: url(../img/bg_ir.png);
+    background-image: url(../img/bg_tn.png);
 }
 
 .page.four {
+    background-image: url(../img/bg_ir.png);
+}
+
+.page.five {
     background-image: url(../img/bg_ar.png);
 }

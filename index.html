@@ -7,20 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script>
-        $(function() {
-            $(window).scroll(function() {
-                var navbar = $(this).scrollTop();
-                console.log(navbar);
-                var $header = $('.header');
-                if (navbar > 860) {
-                    $header.addClass('activated');
-                } else {
-                    $header.removeClass('activated');
-                }
-            })
-        })
-    </script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -36,22 +23,29 @@
             </ul>
         </div>
     </header>
-    
-    <div class="scroll_icon">
-        <ul>
-            <li><img src="icon/ienlab.svg" alt=""></li>
-            <li><img src="icon/bp_icon.svg" alt=""></li>
-            <li><img src="icon/tn_icon.svg" alt=""></li>
-            <li><img src="icon/ir_icon.svg" alt=""></li>
-            <li><img src="icon/ar_icon.svg" alt=""></li>
-        </ul>
+
+    <div class="screen">
+
+        <div class="scroll_icon">
+            <ul>
+                <li id="ic_ienlab"><a href="#pageone"><img src="icon/ienlab.svg" alt=""></a></li>
+                <li id="ic_bp"><a href="#pagetwo"><img src="icon/bp_icon.svg" alt=""></a></li>
+                <li id="ic_tn"><a href="#pagethree"><img src="icon/tn_icon.svg" alt=""></a></li>
+                <li id="ic_ir"><a href="#pagefour"><img src="icon/ir_icon.svg" alt=""></a></li>
+                <li id="ic_ar"><a href="#pagefive"><img src="icon/ar_icon.svg" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div class="indicator" id="indicator"></div>
+
     </div>
-    
-    <section class="page one">
+
+    <section class="page one"><a id="pageone"></a>
         <div class="overlay"></div>
     </section>
-    <section class="page two"></section>
-    <section class="page three"></section>
-    <section class="page four"></section>
+    <section class="page two"><a id="pagetwo"></a></section>
+    <section class="page three"><a id="pagethree"></a></section>
+    <section class="page four"><a id="pagefour"></a></section>
+    <section class="page five"><a id="pagefive"></a></section>
 </body>
 </html>
