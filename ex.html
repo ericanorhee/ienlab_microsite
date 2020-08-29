@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky!</title>
+
+    <style>
+
+        body {
+        }
+        * {
+            margin: 0;
+        }
+
+        section {
+            height: 200vh;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            left: 30vw;
+            height: 100vh;
+        }
+
+        .sticky.one {
+            background-color: #ff253a;
+        }
+
+        .sticky.two {
+            background-color: #2698cb;
+        }
+    </style>
+</head>
+<body>
+    <section><h1>hello world</h1></section>
+    <section><h1 class="sticky one">hello world 1</h1></section>
+    <section><h1 class="sticky two">hello world 2</h1></section>
+    <section><h1 class="sticky one">hello world 3</h1></section>
+    <section><h1 class="sticky two">hello world 4</h1></section>
+    <section>Bye world</section>
+</body>
+</html>
