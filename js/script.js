@@ -49,6 +49,8 @@ $(function () {
                     ic_ir.removeClass('indicator');
                     ic_ar.removeClass('indicator');
                     ic_sg.removeClass('indicator');
+                    phone1.removeClass('disappear')
+                    phone2.removeClass('disappear')
                     break;
                 case 3:
                     ic_ienlab.removeClass('indicator');
@@ -57,6 +59,8 @@ $(function () {
                     ic_ir.addClass('indicator');
                     ic_ar.removeClass('indicator');
                     ic_sg.removeClass('indicator');
+                    phone1.removeClass('disappear')
+                    phone2.removeClass('disappear')
                     break;
                 case 4:
                     ic_ienlab.removeClass('indicator');
@@ -65,6 +69,8 @@ $(function () {
                     ic_ir.removeClass('indicator');
                     ic_ar.addClass('indicator');
                     ic_sg.removeClass('indicator');
+                    phone1.removeClass('disappear')
+                    phone2.removeClass('disappear')
                     break;
 
                 case 5:
@@ -74,6 +80,8 @@ $(function () {
                     ic_ir.removeClass('indicator');
                     ic_ar.removeClass('indicator');
                     ic_sg.addClass('indicator');
+                    phone1.removeClass('disappear')
+                    phone2.removeClass('disappear')
                     break;
 
             }
