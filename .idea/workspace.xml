@@ -19,17 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200829_ienlab_microsite&#10;&#10;스크롤 추가. 왼쪽 인디케이터와 페이지 스무스 이동 추가">
-      <change afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/dup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery-3.5.1.min.js" afterDir="false" />
+    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200830_ienlab_microsite&#10;&#10;왼쪽 인디케이터 크기 추가, 페이지 이동 추가, 글자 추가">
+      <change afterPath="$PROJECT_DIR$/css/fullpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/sg_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ar_screen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ar_screen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg_sg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bp_screen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bp_screen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ir_screen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ir_screen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sg_screen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sg_screen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tn_screen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tn_screen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/fullpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ienlab_microsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ienlab_microsite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bp_ar.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dup.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,25 +78,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Programming/HTML/IENLAB" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\img" />
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\icon" />
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\js" />
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\css" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
-      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\css" />
-      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\img" />
-      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\vendor\jquery" />
-      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\js" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,7 +114,8 @@
       <workItem from="1598365778293" duration="2067000" />
       <workItem from="1598415098983" duration="8973000" />
       <workItem from="1598446675263" duration="21652000" />
-      <workItem from="1598713666466" duration="10349000" />
+      <workItem from="1598713666466" duration="10633000" />
+      <workItem from="1598769992721" duration="25074000" />
     </task>
     <task id="LOCAL-00001" summary="200819_ienlab_microsite&#10;04까지 했음&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813674/04-반응형-레이아웃-유형-2">
       <created>1597844171502</created>
@@ -170,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598643204042</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="200830_ienlab_microsite&#10;&#10;왼쪽 인디케이터 크기 추가, 페이지 이동 추가, 글자 추가">
+      <created>1598728122157</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598728122158</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +213,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="200819_ienlab_microsite&#10;04까지 했음&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813674/04-반응형-레이아웃-유형-2" />
     <MESSAGE value="200820_ienlab_microsite&#10;05" />
     <MESSAGE value="200820_ienlab_microsite&#10;05&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813675/05-반응형-레이아웃-유형-3" />
@@ -199,13 +224,22 @@
     <MESSAGE value="200825_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면" />
     <MESSAGE value="200828_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면" />
     <MESSAGE value="200829_ienlab_microsite&#10;&#10;스크롤 추가. 왼쪽 인디케이터와 페이지 스무스 이동 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="200829_ienlab_microsite&#10;&#10;스크롤 추가. 왼쪽 인디케이터와 페이지 스무스 이동 추가" />
+    <MESSAGE value="200830_ienlab_microsite&#10;&#10;왼쪽 인디케이터 크기 추가, 페이지 이동 추가, 글자 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="200830_ienlab_microsite&#10;&#10;왼쪽 인디케이터 크기 추가, 페이지 이동 추가, 글자 추가" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="635" y="216" key="FileChooserDialogImpl" timestamp="1598713564509">
+    <state x="610" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598805735522">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="635" y="216" key="FileChooserDialogImpl/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598713564509" />
+    <state x="610" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598805735522" />
+    <state x="585" y="240" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1598772281894">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="585" y="240" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598772281894" />
+    <state x="635" y="216" key="FileChooserDialogImpl" timestamp="1598814034060">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="635" y="216" key="FileChooserDialogImpl/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598814034060" />
     <state x="707" y="358" width="292" height="305" key="Github.ShareDialog" timestamp="1597674953188">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -214,24 +248,24 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="635" y="165" key="Github.UntrackedFilesDialog/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597674979188" />
-    <state x="356" y="105" key="SettingsEditor" timestamp="1598713787062">
+    <state x="356" y="105" key="SettingsEditor" timestamp="1598802126267">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598713787062" />
+    <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598802126267" />
     <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597675553217" />
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1598643323394">
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1598728125551">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598643323394" />
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598728125551" />
     <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598367381490" />
     <state x="668" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598028868114">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="668" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598028868114" />
-    <state x="324" y="20" width="1328" height="905" key="dock-window-1" timestamp="1598726229299">
+    <state x="324" y="20" width="1328" height="905" key="dock-window-1" timestamp="1598770302807">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="324" y="20" width="1328" height="905" key="dock-window-1/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598726229299" />
+    <state x="324" y="20" width="1328" height="905" key="dock-window-1/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598770302807" />
     <state x="512" y="211" key="run.anything.popup" timestamp="1598716063221">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

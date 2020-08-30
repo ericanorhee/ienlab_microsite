@@ -1,44 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ko">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sticky!</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <script type="text/javascript" src="vendor/jquery/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript" src="js/ex.js"></script>
+    <title>Ex</title>
     <style>
-
-        body {
-        }
-        * {
-            margin: 0;
-        }
-
-        section {
-            height: 200vh;
-        }
-
-        .sticky {
-            position: sticky;
-            top: 0;
-            left: 30vw;
+        .section {
+            width: 100%;
             height: 100vh;
         }
 
-        .sticky.one {
+        .section.one {
+            background-color: #2698cb;
+        }
+
+        .section.two {
             background-color: #ff253a;
         }
 
-        .sticky.two {
-            background-color: #2698cb;
+        .section.three {
+            background-color: blueviolet;
+        }
+
+        .section.four {
+            background-color: darkslategrey;
         }
     </style>
 </head>
 <body>
-    <section><h1>hello world</h1></section>
-    <section><h1 class="sticky one">hello world 1</h1></section>
-    <section><h1 class="sticky two">hello world 2</h1></section>
-    <section><h1 class="sticky one">hello world 3</h1></section>
-    <section><h1 class="sticky two">hello world 4</h1></section>
-    <section>Bye world</section>
+    <div id="fullpage">
+        <div class="section one">Some section</div>
+        <div class="section two">Some section</div>
+        <div class="section three">Some section</div>
+        <div class="section four">Some section</div>
+    </div>
 </body>
 </html>

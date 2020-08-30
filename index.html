@@ -5,11 +5,13 @@
     <title>아이엔랩 ienlab</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fullpage.css">
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <script type="text/javascript" src="vendor/jquery/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
 </head>
 <body>
     <header class="header">
@@ -27,32 +29,68 @@
     </header>
 
     <div class="screen">
-
         <div class="scroll_icon">
             <ul>
-                <li id="ic_ienlab"><a href="#pageone"><img src="icon/ienlab.svg" alt=""></a></li>
-                <li id="ic_bp"><a href="#pagetwo"><img src="icon/bp_icon.svg" alt=""></a></li>
-                <li id="ic_tn"><a href="#pagethree"><img src="icon/tn_icon.svg" alt=""></a></li>
-                <li id="ic_ir"><a href="#pagefour"><img src="icon/ir_icon.svg" alt=""></a></li>
-                <li id="ic_ar"><a href="#pagefive"><img src="icon/ar_icon.svg" alt=""></a></li>
+                <li id="ic_ienlab" class="indicator"><a href="#section1"><img src="icon/ienlab.svg" alt=""></a></li>
+                <li id="ic_bp"><a href="#section2"><img src="icon/bp_icon.svg" alt=""></a></li>
+                <li id="ic_tn"><a href="#section3"><img src="icon/tn_icon.svg" alt=""></a></li>
+                <li id="ic_ir"><a href="#section4"><img src="icon/ir_icon.svg" alt=""></a></li>
+                <li id="ic_ar"><a href="#section5"><img src="icon/ar_icon.svg" alt=""></a></li>
+                <li id="ic_sg"><a href="#section6"><img src="icon/sg_icon.svg" alt=""></a></li>
             </ul>
         </div>
+    </div>
 
-        <p class="app_title">규칙적인<br>블로그<br>생활을 위해.</p>
+    <img src="img/phone.png" alt="" class="phone one disappear">
+    <img src="img/phone.png" alt="" class="phone two disappear">
 
+    <div id="fullpage">
+        <div class="section one" data-anchor="section1">
+            <div class="overlay"></div>
+            <div class="title">SIMPLE, The Best Worth.</div>
+        </div>
+        <div class="section two" data-anchor="section2">
+            <ul class="app_group">
+                <li class="app_desc">규칙적인<br>블로그<br>생활을 위해.</li>
+                <li class="app_title"><br>블로그 플래너  <img src="icon/bp_icon.svg" alt="" class="app_icon"></li>
+            </ul>
+            <img src="img/bp_screen1.png" alt="" class="screenshot one">
+            <img src="img/bp_screen2.png" alt="" class="screenshot two">
+        </div>
+        <div class="section three" data-anchor="section3">
+            <ul class="app_group">
+                <li class="app_desc">스마트폰 알림,<br>태블릿에서<br>받아보자</li>
+                <li class="app_title"><br>태블릿 알리미  <img src="icon/tn_icon.svg" alt="" class="app_icon"></li>
+            </ul>
+            <img src="img/tn_screen1.png" alt="" class="screenshot one">
+            <img src="img/tn_screen2.png" alt="" class="screenshot two">
+        </div>
+        <div class="section four" data-anchor="section4">
+            <ul class="app_group">
+                <li class="app_desc">머리,<br>이렇게 잘라<br>주세요.</li>
+                <li class="app_title"><br>이르케 헤어  <img src="icon/ir_icon.svg" alt="" class="app_icon"></li>
+            </ul>
+            <img src="img/ir_screen1.png" alt="" class="screenshot one">
+            <img src="img/ir_screen2.png" alt="" class="screenshot two">
+        </div>
+        <div class="section five" data-anchor="section5">
+            <ul class="app_group">
+                <li class="app_desc">강의 녹음도<br>기억할 필요 없이<br>자동으로.</li>
+                <li class="app_title"><br>레코드 루틴  <img src="icon/ar_icon.svg" alt="" class="app_icon"></li>
+            </ul>
+            <img src="img/ar_screen1.png" alt="" class="screenshot one">
+            <img src="img/ar_screen2.png" alt="" class="screenshot two">
+        </div>
+        <div class="section six" data-anchor="section6">
+            <ul class="app_group">
+                <li class="app_desc">장소에 맞는<br>볼륨 에티켓의<br>시작.</li>
+                <li class="app_title"><br>SoundGround  <img src="icon/sg_icon.svg" alt="" class="app_icon"></li>
+            </ul>
+            <img src="img/sg_screen1.png" alt="" class="screenshot one">
+            <img src="img/sg_screen2.png" alt="" class="screenshot two">
+        </div>
     </div>
 
 
-
-    <section class="page one">
-        <a id="pageone"></a>
-        <div class="overlay"></div>
-    </section>
-    <section class="page two">
-        <a id="pagetwo"></a>
-    </section>
-    <section class="page three"><a id="pagethree"></a></section>
-    <section class="page four"><a id="pagefour"></a></section>
-    <section class="page five"><a id="pagefive"></a></section>
 </body>
 </html>

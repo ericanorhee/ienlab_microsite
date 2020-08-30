@@ -18,6 +18,7 @@ html {
 
 body {
     height: 100%;
+    position: relative;
 }
 
 .hidden {
@@ -26,9 +27,6 @@ body {
     overflow: hidden !important;
     touch-action: none;
 }
-
-
-
 
 .header {
     width: 100%;
@@ -62,7 +60,7 @@ body {
 
 .header .header_icon {
     text-align: right;
-    margin: 20px 40px 20px 20px;
+    margin: 20px 5% 20px 20px;
 }
 
 .header .header_icon li {
@@ -89,15 +87,83 @@ i.fab:hover {
     display: block;
 }
 
-.app_title {
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'GmarketSansBold', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+ul.app_group {
     display: block;
     position: absolute;
+    list-style-type: none;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 15%;
+}
+
+li.app_desc {
     font-family: 'GmarketSansBold', sans-serif;
     font-size: 4rem;
+    line-height: 5rem;
     color: #ffffff;
+}
+
+li.app_title {
+    display: block;
+    font-family: 'GmarketSansBold', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+img.app_icon {
+    width: auto;
+    height: 4rem;
+    margin-bottom: -1.25rem;
+}
+
+img.phone {
+    /*background-color: black;*/
+    /*opacity: 70%;*/
+    width: 25%;
+    height: auto;
+    position: fixed;
+    bottom: -10%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+img.phone.one {
+    right: 5%;
+    z-index: 5;
+}
+
+img.phone.two {
+    right: 28%;
+    z-index: 3;
+}
+
+img.phone.disappear {
+    opacity: 0;
+}
+
+img.screenshot {
+    width: 18.41%;
+    position: absolute;
+    bottom: -3.3%;
+}
+
+img.screenshot.one {
+    right: 8.31%;
+    z-index: 6;
+}
+
+img.screenshot.two {
+    right: 31.31%;
+    z-index: 4;
 }
 
 .scroll_icon {
@@ -122,59 +188,23 @@ i.fab:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-.scroll_icon li.indicator {
+.scroll_icon li.indicator, .scroll_icon li:hover {
     transform: scale(1.5, 1.5);
 }
 
-.scroll_icon li:hover {
-    transform: scale(1.3, 1.3);
-}
-
-
-
-
-/*.indicator {*/
-/*    width: 2px;*/
-/*    height: 20px;*/
-/*    background-color: #ffffff;*/
-/*    display: block;*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    transform: translateY(-50%);*/
-/*    margin-left: 80px;*/
-/*    z-index: 3;*/
-/*}*/
-
-#h1 {
-    width: 100px;
-    height: 200px;
-    background-color: #ff253a;
-    float: left;
-}
-
-#h2 {
-    width: 200px;
-    height: 200px;
-    background-color: #2698cb;
-    float: left;
-}
-
-.page {
+.section {
     height: 100vh;
     overflow: hidden;
-    background-attachment: fixed;
     background-size: cover;
-
-
-
-}
-
-
-.page.one {
     background-image: url(../img/bg_main.png);
 }
 
-.page.one .overlay {
+.section.one {
+    background-position: center;
+    background-image: url(../img/bg_main.png);
+}
+
+.section.one .overlay {
     background-color: #000000;
     background-size: cover;
     /*position: fixed;*/
@@ -184,25 +214,22 @@ i.fab:hover {
     opacity: 0.5;
 }
 
-.page.two {
+.section.two {
     background-image: url(../img/bg_bp.png);
-
-    position: sticky;
-    top: 0;
-    bottom: 100vh;
 }
 
-.page.three {
+.section.three {
     background-image: url(../img/bg_tn.png);
-    position: sticky;
-    top: 0;
-    bottom: 100vh;
 }
 
-.page.four {
+.section.four {
     background-image: url(../img/bg_ir.png);
 }
 
-.page.five {
+.section.five {
     background-image: url(../img/bg_ar.png);
+}
+
+.section.six {
+    background-image: url(../img/bg_sg.png);
 }
