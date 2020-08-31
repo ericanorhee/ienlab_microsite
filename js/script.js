@@ -20,7 +20,6 @@ $(function () {
             const phone1 = $(".phone.one")
             const phone2 = $(".phone.two")
 
-            console.log(destination.index);
             switch (destination.index) {
                 case 0:
                     ic_ienlab.addClass('indicator');

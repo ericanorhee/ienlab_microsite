@@ -19,32 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200830_ienlab_microsite&#10;&#10;왼쪽 인디케이터 크기 추가, 페이지 이동 추가, 글자 추가">
-      <change afterPath="$PROJECT_DIR$/css/fullpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/sg_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ar_screen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ar_screen2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg_sg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bp_screen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bp_screen2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ir_screen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ir_screen2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sg_screen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sg_screen2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tn_screen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tn_screen2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/ex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fullpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ienlab_microsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ienlab_microsite.iml" afterDir="false" />
+    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200831_ienlab_microsite_2&#10;&#10;휴대폰 틀 오류 수정">
+      <change afterPath="$PROJECT_DIR$/font/ienlab-logo-font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/ar_icon_color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/bp_icon_color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/ienlab_color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/ir_icon_color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/sg_icon_color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/tn_icon_color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/svg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bp_ar.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/dup.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -83,18 +69,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Programming/HTML/IENLAB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/font" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\img" />
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\font" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\icon" />
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\img" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\js" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\css" />
-      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
@@ -115,7 +101,7 @@
       <workItem from="1598415098983" duration="8973000" />
       <workItem from="1598446675263" duration="21652000" />
       <workItem from="1598713666466" duration="10633000" />
-      <workItem from="1598769992721" duration="25074000" />
+      <workItem from="1598769992721" duration="45301000" />
     </task>
     <task id="LOCAL-00001" summary="200819_ienlab_microsite&#10;04까지 했음&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813674/04-반응형-레이아웃-유형-2">
       <created>1597844171502</created>
@@ -194,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598728122158</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="200831_ienlab_microsite&#10;&#10;페이지 이동 스무스하게 (슬라이드 형식)&#10;휴대폰 스크린샷, 틀 및 문구, 아이콘 추가.">
+      <created>1598819537377</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598819537378</updated>
+    </task>
+    <task id="LOCAL-00013" summary="200831_ienlab_microsite_2&#10;&#10;휴대폰 틀 오류 수정">
+      <created>1598820290855</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598820290855</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +225,9 @@
     <MESSAGE value="200828_ienlab_microsite&#10;&#10;메인 웹사이트 개발 시작&#10;첫화면" />
     <MESSAGE value="200829_ienlab_microsite&#10;&#10;스크롤 추가. 왼쪽 인디케이터와 페이지 스무스 이동 추가" />
     <MESSAGE value="200830_ienlab_microsite&#10;&#10;왼쪽 인디케이터 크기 추가, 페이지 이동 추가, 글자 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="200830_ienlab_microsite&#10;&#10;왼쪽 인디케이터 크기 추가, 페이지 이동 추가, 글자 추가" />
+    <MESSAGE value="200831_ienlab_microsite&#10;&#10;페이지 이동 스무스하게 (슬라이드 형식)&#10;휴대폰 스크린샷, 틀 및 문구, 아이콘 추가." />
+    <MESSAGE value="200831_ienlab_microsite_2&#10;&#10;휴대폰 틀 오류 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="200831_ienlab_microsite_2&#10;&#10;휴대폰 틀 오류 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598805735522">
@@ -253,10 +255,10 @@
     </state>
     <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598802126267" />
     <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597675553217" />
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1598728125551">
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1598820311204">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598728125551" />
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598820311204" />
     <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598367381490" />
     <state x="668" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598028868114">
       <screen x="0" y="0" width="1707" height="920" />
@@ -270,10 +272,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="512" y="211" key="run.anything.popup/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598716063221" />
-    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup" timestamp="1598639998743">
+    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup" timestamp="1598893238628">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598639998743" />
+    <state x="516" y="196" width="672" height="678" key="search.everywhere.popup/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598893238628" />
     <state x="516" y="196" width="672" height="678" key="search.everywhere.popup/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598105093889" />
   </component>
 </project>
