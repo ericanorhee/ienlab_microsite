@@ -23,6 +23,7 @@ $(function () {
             switch (destination.index) {
                 case 0:
                     ic_ienlab.addClass('indicator');
+                    // $("#ic_ienlab img").attr('src', "../icon/ienlab_color.svg");
                     ic_bp.removeClass('indicator');
                     ic_tn.removeClass('indicator');
                     ic_ir.removeClass('indicator');

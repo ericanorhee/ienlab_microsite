@@ -75,7 +75,7 @@ body {
 
 .header .menu li.dropdown {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     font-family: GmarketSansMedium, sans-serif;
     font-size: 14px;
     color: #ffffff;
@@ -94,9 +94,11 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
+    width: fit-content;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     margin-top: 15px;
     z-index: 1;
+    transform: translateX(-10px);
     transition: visibility 0.3s, opacity 0.3s ease-in-out;
 }
 
@@ -251,15 +253,70 @@ img.screenshot.two {
 }
 
 .scroll_icon li img {
-    width: 20px;
+    width: 30px;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform, background-image 0.3s ease-in-out;
+}
+
+.scroll_icon .icon_bg {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
 }
 
 .scroll_icon li.indicator, .scroll_icon li:hover {
     transform: scale(1.5, 1.5);
+}
+
+.scroll_icon li#ic_ienlab img {
+    background-image: url("../icon/ienlab.svg");
+}
+
+.scroll_icon li#ic_ienlab.indicator img {
+    background-image: url("../icon/ienlab_color.svg");
+}
+
+.scroll_icon li#ic_bp img {
+    background-image: url("../icon/bp_icon.svg");
+}
+
+.scroll_icon li#ic_bp.indicator img {
+    background-image: url("../icon/bp_icon_color.svg");
+}
+
+.scroll_icon li#ic_tn img {
+    background-image: url("../icon/tn_icon.svg");
+}
+
+.scroll_icon li#ic_tn.indicator img {
+    background-image: url("../icon/tn_icon_color.svg");
+}
+
+.scroll_icon li#ic_ir img {
+    background-image: url("../icon/ir_icon.svg");
+}
+
+.scroll_icon li#ic_ir.indicator img {
+    background-image: url("../icon/ir_icon_color.svg");
+}
+
+.scroll_icon li#ic_ar img {
+    background-image: url("../icon/ar_icon.svg");
+}
+
+.scroll_icon li#ic_ar.indicator img {
+    background-image: url("../icon/ar_icon_color.svg");
+}
+
+.scroll_icon li#ic_sg img {
+    background-image: url("../icon/sg_icon.svg");
+}
+
+.scroll_icon li#ic_sg.indicator img {
+    background-image: url("../icon/sg_icon_color.svg");
 }
 
 .section {
