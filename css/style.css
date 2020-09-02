@@ -19,6 +19,10 @@
     font-style: normal;
 }
 
+* {
+    transition: all 0.3s ease-in-out;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -43,10 +47,6 @@ body {
     z-index: 3;
 }
 
-.header.activated {
-    background-color: aqua;
-}
-
 .logo {
     width: 200px;
     height: 40px;
@@ -59,7 +59,6 @@ body {
     transform: translateX(calc(-50% - 20px));
     margin: 20px;
     z-index: 4;
-    transition: background-image 0.3s ease-in-out;
 }
 
 .logo:hover {
@@ -80,7 +79,6 @@ body {
     font-size: 14px;
     color: #ffffff;
     padding: 10px;
-    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .header .menu li.dropdown:hover {
@@ -99,13 +97,11 @@ body {
     margin-top: 15px;
     z-index: 1;
     transform: translateX(-10px);
-    transition: visibility 0.3s, opacity 0.3s ease-in-out;
 }
 
 .dropdown_icon {
     height: 1.5rem;
     transform: translateY(0.5rem);
-    fill: red;
 }
 
 .dropdown-content a {
@@ -115,7 +111,6 @@ body {
     text-decoration: none;
     display: block;
     text-align: left;
-    transition: background-color 0.3s ease-in-out;
 }
 
 .dropdown-content a:hover {
@@ -143,7 +138,6 @@ i.fab {
     color: #ffffff;
     font-size: 24px;
     margin: 10px;
-    transition: transform 0.3s ease-in-out;
 }
 
 i.fab:hover {
@@ -205,7 +199,6 @@ img.phone {
     height: auto;
     position: fixed;
     bottom: -10%;
-    transition: opacity 0.3s ease-in-out;
 }
 
 img.phone.one {
@@ -249,7 +242,6 @@ img.screenshot.two {
 
 .scroll_icon li {
     list-style-type: none;
-    transition: transform 0.3s ease-in-out;
 }
 
 .scroll_icon li img {
@@ -257,7 +249,6 @@ img.screenshot.two {
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    transition: transform, background-image 0.3s ease-in-out;
 }
 
 .scroll_icon .icon_bg {

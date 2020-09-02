@@ -1,4 +1,3 @@
-// scrollDisable();
 // window.onscroll = function() { scrollFunction() };
 
 $(function () {
