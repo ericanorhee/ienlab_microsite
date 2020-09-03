@@ -19,20 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200902_ienlab_microsite&#10;&#10;새 페이지 (블로그 플래너) 생성 및 수정 중">
-      <change afterPath="$PROJECT_DIR$/icon/ar_icon_color_nobg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/bp_icon_color_nobg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/ienlab_color_nobg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/ir_icon_color_nobg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/sg_icon_color_nobg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/tn_icon_color_nobg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5cb63f99-2e76-48d1-8b71-20c77b0a2849" name="Default Changelist" comment="200903_ienlab_microsite&#10;&#10;새 페이지(blogplanner.html) 헤더 작업.">
+      <change afterPath="$PROJECT_DIR$/aboutme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-identity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style-ienlab.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogplanner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-apps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-apps.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script-blogplanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-blogplanner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script-blogplanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-apps.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +71,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite" />
+      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\css" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\icon" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\js" />
-      <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\css" />
       <recent name="C:\IEN_DATA\Programming\HTML\ienlab_microsite\font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -104,7 +97,7 @@
       <workItem from="1598713666466" duration="10633000" />
       <workItem from="1598769992721" duration="46094000" />
       <workItem from="1598962814146" duration="7090000" />
-      <workItem from="1599057039935" duration="9731000" />
+      <workItem from="1599057039935" duration="14945000" />
     </task>
     <task id="LOCAL-00001" summary="200819_ienlab_microsite&#10;04까지 했음&#10;edu.goorm.io/learn/lecture/16942/웹퍼블리싱-실습-반응형-사이트-만들기/lesson/813674/04-반응형-레이아웃-유형-2">
       <created>1597844171502</created>
@@ -218,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599057201804</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="200903_ienlab_microsite&#10;&#10;새 페이지(blogplanner.html) 헤더 작업.">
+      <created>1599073521285</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599073521285</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +254,8 @@
     <MESSAGE value="200901_ienlab_microsite&#10;&#10;상단 왼쪽 메뉴 (Apps Design About) 추가" />
     <MESSAGE value="200901_ienlab_microsite#2&#10;&#10;상단 왼쪽 메뉴 드롭다운 위치 수정, 스크롤 인디케이터 수정.&#10;메인 페이지 끝" />
     <MESSAGE value="200902_ienlab_microsite&#10;&#10;새 페이지 (블로그 플래너) 생성 및 수정 중" />
-    <option name="LAST_COMMIT_MESSAGE" value="200902_ienlab_microsite&#10;&#10;새 페이지 (블로그 플래너) 생성 및 수정 중" />
+    <MESSAGE value="200903_ienlab_microsite&#10;&#10;새 페이지(blogplanner.html) 헤더 작업." />
+    <option name="LAST_COMMIT_MESSAGE" value="200903_ienlab_microsite&#10;&#10;새 페이지(blogplanner.html) 헤더 작업." />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598805735522">
@@ -286,10 +287,10 @@
     </state>
     <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1598802126267" />
     <state x="356" y="105" key="SettingsEditor/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1597675553217" />
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1599057203361">
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2" timestamp="1599073522703">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1599057203361" />
+    <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1463.783@0.0.1707.920" timestamp="1599073522703" />
     <state x="447" y="197" key="Vcs.Push.Dialog.v2/0.0.1707.920/3840.0.1920.1040@0.0.1707.920" timestamp="1598367381490" />
     <state x="668" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599060503122">
       <screen x="0" y="0" width="1707" height="920" />
